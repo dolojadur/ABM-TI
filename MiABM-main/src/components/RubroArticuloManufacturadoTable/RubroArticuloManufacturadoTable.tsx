@@ -64,7 +64,7 @@ const RubroArticuloManufacturadoTable =()=>{
     return (
         <>
         <Button onClick={()=> handleClick("Nuevo Rubro Insumo", initializableNewRubroArticuloManufacturado(),
-        ModalType.CREATE)}> Nuevo Rubro Insumo </Button>
+        ModalType.CREATE)}> Nuevo Rubro Articulo Manufacturado </Button>
             {isLoading ? <Loader/> :(
                 <Table hover>
                     <thead>
